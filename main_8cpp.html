@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DVLA: D:/DVLA Project/main.cpp File Reference</title>
+<title>Vehicle Registration For DVLA: main.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,9 +25,8 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DVLA
+   <div id="projectname">Vehicle Registration For DVLA<span id="projectnumber">&#160;Latest</span>
    </div>
-   <div id="projectbrief">A DVLA Project uisng the OOP Paradigm</div>
   </td>
  </tr>
  </tbody>
@@ -92,21 +91,48 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">D:/DVLA Project/main.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;conio.h&gt;</code><br />
+<code>#include &lt;cctype&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &quot;<a class="el" href="_officer_8h_source.html">Officer.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="main_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a10e71baa359a7003e87593298dd816d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a10e71baa359a7003e87593298dd816d0">dvla_app</a> ()</td></tr>
+<tr class="separator:a10e71baa359a7003e87593298dd816d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5a6ca2a431f02b1e1516a795bf6bf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a5c5a6ca2a431f02b1e1516a795bf6bf4">menu</a> (<a class="el" href="class_driver.html">Driver</a>)</td></tr>
+<tr class="separator:a5c5a6ca2a431f02b1e1516a795bf6bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a10e71baa359a7003e87593298dd816d0" name="a10e71baa359a7003e87593298dd816d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e71baa359a7003e87593298dd816d0">&#9670;&#160;</a></span>dvla_app()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dvla_app </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00063">63</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+</div>
+</div>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
 
@@ -121,7 +147,28 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Test for Plate Numbers</p>
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00026">26</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5c5a6ca2a431f02b1e1516a795bf6bf4" name="a5c5a6ca2a431f02b1e1516a795bf6bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c5a6ca2a431f02b1e1516a795bf6bf4">&#9670;&#160;</a></span>menu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void menu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_driver.html">Driver</a>&#160;</td>
+          <td class="paramname"><em>d1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00069">69</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 </div>
 </div>

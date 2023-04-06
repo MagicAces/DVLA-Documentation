@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['license_0',['License',['../class_license.html',1,'']]]
+  ['helperfunctions_0',['HelperFunctions',['../class_helper_functions.html',1,'']]]
 ];

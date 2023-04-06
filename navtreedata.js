@@ -24,8 +24,22 @@
 */
 var NAVTREE =
 [
-  [ "DVLA", "index.html", [
-    [ "DVLA App", "md__d___d_v_l_a__project__r_e_a_d_m_e.html", null ],
+  [ "Vehicle Registration For DVLA", "index.html", [
+    [ "Project Work By Group 29", "md__r_e_a_d_m_e.html", [
+      [ "Vehicle Registration Application for DVLA - Project Topic C", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "Table of contents", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Overview", "md__r_e_a_d_m_e.html#autotoc_md3", [
+        [ "The challenge", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
+        [ "UML Class Diagram", "md__r_e_a_d_m_e.html#autotoc_md5", null ],
+        [ "Links", "md__r_e_a_d_m_e.html#autotoc_md6", null ]
+      ] ],
+      [ "Process", "md__r_e_a_d_m_e.html#autotoc_md7", [
+        [ "Built With", "md__r_e_a_d_m_e.html#autotoc_md8", null ],
+        [ "Steps", "md__r_e_a_d_m_e.html#autotoc_md9", null ]
+      ] ],
+      [ "Authors", "md__r_e_a_d_m_e.html#autotoc_md10", null ],
+      [ "ACKNOWLEDGEMENTS", "md__r_e_a_d_m_e.html#autotoc_md11", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -49,7 +63,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_driver_8h.html"
+"_driver_8h.html",
+"md__r_e_a_d_m_e.html#autotoc_md6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vehicle_0',['Vehicle',['../class_vehicle.html',1,'']]]
+  ['sticker_0',['Sticker',['../class_sticker.html',1,'']]]
 ];

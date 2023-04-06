@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DVLA: DVLA App</title>
+<title>Vehicle Registration For DVLA: Project Work By Group 29</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,9 +25,8 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DVLA
+   <div id="projectname">Vehicle Registration For DVLA<span id="projectnumber">&#160;Latest</span>
    </div>
-   <div id="projectbrief">A DVLA Project uisng the OOP Paradigm</div>
   </td>
  </tr>
  </tbody>
@@ -90,10 +89,96 @@ $(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizab
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">DVLA App </div></div>
+  <div class="headertitle"><div class="title">Project Work By Group 29 </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>App for DVLA </p>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
+Vehicle Registration Application for DVLA - Project Topic C</h1>
+<p>This is a solution to Project Topic C using OOP Concepts purely in C++ programming language.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Table of contents</h1>
+<ul>
+<li>Overview<ul>
+<li>The challenge</li>
+<li>UML Class Diagram</li>
+<li>Links</li>
+</ul>
+</li>
+<li>Process<ul>
+<li>Built with</li>
+<li>Steps</li>
+</ul>
+</li>
+<li>Author</li>
+<li>Acknowledgments</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Overview</h1>
+<p>The goal of the solution was to demonstrate our in-depth understanding of C++ OOP programming paradigm to develop a <a class="el" href="class_vehicle.html">Vehicle</a> Registration Application for the DVLA. Through the extensive use of classes and other OOP Concepts like Inheritance, Encapsulation and polymorphism, we as a group, were able to tackle the project. Using Doxygen, the documentation for the project was generated. Click <a href="https://magicaces.github.io/DVLA-Documentation/">here to view</a>.</p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+The challenge</h2>
+<p>We were to cater for the following scenarios:</p>
+<ul>
+<li><a class="el" href="class_officer.html">Officer</a> can register vehicles and assign them numbers</li>
+<li><a class="el" href="class_officer.html">Officer</a> can issue license to new drivers</li>
+<li><a class="el" href="class_vehicle.html">Vehicle</a> Registration and <a class="el" href="class_driver.html">Driver</a> <a class="el" href="class_license.html">License</a> can expire and be renewed</li>
+</ul>
+<p>Added Scenarios include;</p><ul>
+<li><a class="el" href="class_officer.html">Officer</a> can issue roadworthiness certificate</li>
+<li><a class="el" href="class_officer.html">Officer</a> can upgrade licenses.</li>
+<li>Clients can further contact the DVLA.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md5"></a>
+UML Class Diagram</h2>
+<p>To help streamline our thoughts we modelled the project using the UML Class Diagram. 5 base classes were deduced which were;</p>
+<ul>
+<li><a class="el" href="class_officer.html">Officer</a></li>
+<li><a class="el" href="class_driver.html">Driver</a></li>
+<li><a class="el" href="class_vehicle.html">Vehicle</a></li>
+<li><a class="el" href="class_plate_number.html">PlateNumber</a></li>
+<li><a class="el" href="class_license.html">License</a></li>
+</ul>
+<p>Another additional base class popped up during the course of the project which were the <a class="el" href="class_sticker.html">Sticker</a>, <a class="el" href="class_helper_functions.html">HelperFunctions</a> and <a class="el" href="class_renewal.html">Renewal</a> Class</p>
+<p>Below is a picture of the UML Class diagram or Click <a href="https://lucid.app/lucidchart/c06458fe-33ca-4909-8e6e-8e369b95ee34/view">here for much clearer view</a></p>
+<p><img src="./DVLA_Class_Diagram.png" alt="" class="inline"/></p>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Links</h2>
+<ul>
+<li><a href="https://lucid.app/lucidchart/c06458fe-33ca-4909-8e6e-8e369b95ee34/view">UML Class Diagram</a></li>
+<li><a href="https://magicaces.github.io/DVLA-Documentation/">Project Documentation</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md7"></a>
+Process</h1>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Built With</h2>
+<p>The program was built solely and using only C++.</p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Steps</h2>
+<p>After deriving the classes and the relationships between them, we went a step further to see how we could best exploit OOP concepts to facilitate the project. Subclasses became evident for some of the base classes.</p>
+<ul>
+<li><a class="el" href="class_license.html">License</a> The <a class="el" href="class_license.html">License</a> class has a <a class="el" href="class_temp_license.html">TempLicense</a> subclass for temporary driver licenses that are issued to new drivers. The <a class="el" href="class_license.html">License</a> class itself represents the driver's license card.</li>
+<li><a class="el" href="class_vehicle.html">Vehicle</a> 6 different derived classes all representing the types of Vehicles were created. They were; &ndash; <a class="el" href="class_private_vehicle.html">PrivateVehicle</a> &ndash; <a class="el" href="class_corporate_vehicle.html">CorporateVehicle</a> &ndash; <a class="el" href="class_commercial_vehicle.html">CommercialVehicle</a> &ndash; <a class="el" href="class_motorcycle.html">Motorcycle</a> &ndash; <a class="el" href="class_government_vehicle.html">GovernmentVehicle</a> &ndash; <a class="el" href="class_police_vehicle.html">PoliceVehicle</a></li>
+<li><a class="el" href="class_plate_number.html">PlateNumber</a> It has a subclass <a class="el" href="class_custom_plate_number.html">CustomPlateNumber</a> representing custom plate numbers. The <a class="el" href="class_plate_number.html">PlateNumber</a> is for region-based plate numbers, Government and Police Vehicles</li>
+</ul>
+<p>Another realization was the presence of the Abstract class, i.e <a class="el" href="class_vehicle.html">Vehicle</a> Class due to the presence of a pure virtual function.</p>
+<div class="fragment"><div class="line">{c++}</div>
+<div class="line">   virtual void displayCategory() const = 0; </div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md10"></a>
+Authors</h1>
+<p>Group 29 Members</p>
+<ul>
+<li>KONLAN YOEMAN</li>
+<li>ONITI JESUTOFUNMI ISAAC</li>
+<li>OKAGYI SELOM JOSHUA</li>
+<li>BOADI EVANS</li>
+<li>ADIABU RICHARD</li>
+<li>ZIDDAH FRANCIS</li>
+<li>NTIM HERBERT</li>
+<li>OTENG TANO KOJO</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md11"></a>
+ACKNOWLEDGEMENTS</h1>
+<p>Our gratitude goes to the DVLA Website for providing a ton of information regarding <a class="el" href="class_vehicle.html">Vehicle</a> Registration and <a class="el" href="class_driver.html">Driver</a> Licensing in Ghana. Kindly visit the <a href="http://www.dvla.gov.gh/">site</a> for further information. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

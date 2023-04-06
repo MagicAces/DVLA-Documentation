@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DVLA: PlateNumber Class Reference</title>
+<title>Vehicle Registration For DVLA: PlateNumber Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,9 +25,8 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">DVLA
+   <div id="projectname">Vehicle Registration For DVLA<span id="projectnumber">&#160;Latest</span>
    </div>
-   <div id="projectbrief">A DVLA Project uisng the OOP Paradigm</div>
   </td>
  </tr>
  </tbody>
@@ -122,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4a22fd44dc75f88b66950dfc2c4d0ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa738d959e992e509801795094d485dde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plate_number.html#aa738d959e992e509801795094d485dde">setCustomPlatePrefix</a> (string custom)</td></tr>
 <tr class="separator:aa738d959e992e509801795094d485dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a792e91a72fa73a436a2156ebba9e9e15"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plate_number.html#a792e91a72fa73a436a2156ebba9e9e15">toString</a> () const</td></tr>
-<tr class="separator:a792e91a72fa73a436a2156ebba9e9e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b82580c0a385fd14b01bfcc27e7d10a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plate_number.html#a5b82580c0a385fd14b01bfcc27e7d10a">getPlateNumber</a> () const</td></tr>
+<tr class="separator:a5b82580c0a385fd14b01bfcc27e7d10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -150,8 +149,13 @@ Static Protected Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:ac3f1fc094b56488e4527f258e9ee4cab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plate_number.html#ac3f1fc094b56488e4527f258e9ee4cab">generateNumber</a> (<a class="el" href="class_plate_number.html">PlateNumber</a> &amp;)</td></tr>
 <tr class="separator:ac3f1fc094b56488e4527f258e9ee4cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3217aef130dbd215bc9ac68ae9cc8161"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plate_number.html#a3217aef130dbd215bc9ac68ae9cc8161">operator&lt;&lt;</a> (ostream &amp;, const <a class="el" href="class_plate_number.html">PlateNumber</a> &amp;)</td></tr>
+<tr class="separator:a3217aef130dbd215bc9ac68ae9cc8161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00011">11</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3997232ff0ceec7322ec00e3cf910df1" name="a3997232ff0ceec7322ec00e3cf910df1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3997232ff0ceec7322ec00e3cf910df1">&#9670;&#160;</a></span>PlateNumber() <span class="overload">[1/2]</span></h2>
 
@@ -174,6 +178,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00074">74</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
 
 </div>
 </div>
@@ -211,9 +217,38 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00081">81</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5b82580c0a385fd14b01bfcc27e7d10a" name="a5b82580c0a385fd14b01bfcc27e7d10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b82580c0a385fd14b01bfcc27e7d10a">&#9670;&#160;</a></span>getPlateNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PlateNumber::getPlateNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00096">96</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
+</div>
+</div>
 <a id="a1c4589f937bcca45d66438e05fa09776" name="a1c4589f937bcca45d66438e05fa09776"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c4589f937bcca45d66438e05fa09776">&#9670;&#160;</a></span>getPlatePrefix()</h2>
 
@@ -238,6 +273,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="class_custom_plate_number.html#a8e096b90049ed78be4aa9b74b9aed50e">CustomPlateNumber</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00028">28</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
 
 </div>
 </div>
@@ -265,6 +302,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00069">69</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
 </div>
 </div>
 <a id="aa738d959e992e509801795094d485dde" name="aa738d959e992e509801795094d485dde"></a>
@@ -290,6 +329,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00092">92</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
 
 </div>
 </div>
@@ -317,30 +358,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a792e91a72fa73a436a2156ebba9e9e15" name="a792e91a72fa73a436a2156ebba9e9e15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a792e91a72fa73a436a2156ebba9e9e15">&#9670;&#160;</a></span>toString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string PlateNumber::toString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00087">87</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
 
 </div>
 </div>
@@ -369,6 +387,46 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00109">109</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
+</div>
+</div>
+<a id="a3217aef130dbd215bc9ac68ae9cc8161" name="a3217aef130dbd215bc9ac68ae9cc8161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3217aef130dbd215bc9ac68ae9cc8161">&#9670;&#160;</a></span>operator&lt;&lt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">ostream &amp;&#160;</td>
+          <td class="paramname"><em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_plate_number.html">PlateNumber</a> &amp;&#160;</td>
+          <td class="paramname"><em>number</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00137">137</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -392,6 +450,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00022">22</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
 </div>
 </div>
 <a id="af59895d23637ac9b7bf3c6fd721bc761" name="af59895d23637ac9b7bf3c6fd721bc761"></a>
@@ -414,6 +474,8 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00021">21</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
 </div>
 </div>
 <a id="a37b36cef8a42ced831335a75d0d0f36a" name="a37b36cef8a42ced831335a75d0d0f36a"></a>
@@ -435,6 +497,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00020">20</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
 
 </div>
 </div>
@@ -459,10 +523,12 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <p>The <a class="el" href="class_plate_number.html">PlateNumber</a> Class uses inheritance as well for the DVLA Assigned Plate Number or a Custom Plate Number. It caters for all the kinds of vehicles in the <a class="el" href="class_vehicle.html">Vehicle</a> class. </p>
 
+<p class="definition">Definition at line <a class="el" href="_plate_number_8h_source.html#l00019">19</a> of file <a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/DVLA Project/<a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a></li>
+<li><a class="el" href="_plate_number_8h_source.html">PlateNumber.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

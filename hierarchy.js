@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "Driver", "class_driver.html", null ],
+    [ "HelperFunctions", "class_helper_functions.html", null ],
     [ "License", "class_license.html", [
       [ "TempLicense", "class_temp_license.html", null ]
     ] ],
@@ -8,6 +9,7 @@ var hierarchy =
     [ "PlateNumber", "class_plate_number.html", [
       [ "CustomPlateNumber", "class_custom_plate_number.html", null ]
     ] ],
+    [ "Renewal", "class_renewal.html", null ],
     [ "Sticker", "class_sticker.html", null ],
     [ "Vehicle", "class_vehicle.html", [
       [ "CommercialVehicle", "class_commercial_vehicle.html", null ],
